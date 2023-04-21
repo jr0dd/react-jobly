@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "resolveJsonModule": true,
+    "baseUrl": "."
+  },
+  "typeAcquisition": {
+    "include": ["jest", "jquery"]
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
